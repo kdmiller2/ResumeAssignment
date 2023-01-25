@@ -1,0 +1,63 @@
+
+body {
+    background-image:url("placeholder images/yellow.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:75%;
+}
+
+h1  {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:28pt;
+    color:rgb(29, 80, 76);
+    kerning:180pt;
+    text-indent:100px;
+    text-decoration:underline;
+    text-align:center;
+}
+h2 {
+    color:rgb(29, 80, 76);
+    font-family:monospaced, sans-serif;
+    font-size:20pt;
+    text-indent:100px;
+}
+
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:18pt;
+    color:rgb(22, 61, 58);
+    text-indent:100px;
+   
+}
+section.featured{
+   width:90%;
+    border-bottom:solid rgb(29, 80, 76);
+    }
+section.job1{
+    width:90%;
+    border-bottom:solid rgb(29, 80, 76);
+    margin-bottom:35px;
+}
+section.education{
+    width:90%;
+    border-bottom:solid rgb(29, 80, 76);
+    margin-bottom:75px;
+    
+    }
+
+p   {
+    font-family:garamond;
+    font-size:18px;
+    color:rgb(22, 61, 58);
+    padding-left:100px;
+    width:75%;
+    font-weight:bold;
+
+}
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:14pt;
+    color:rgb(59, 53, 77);
+    padding-left:100px;
+}

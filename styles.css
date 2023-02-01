@@ -1,63 +1,95 @@
-
-body {
-    background-image:url("placeholder images/yellow.jpg");
+  body {
+    background-image:url("yellow.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     width:75%;
+    padding-left:10%;
+    color:rgb(29, 80, 76);
+    font-size:16pt;
+    font-family: 'Lora', serif;
 }
 
+
+img {
+width:15%;
+padding: 5pt;}
+
+
 h1  {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:28pt;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
     color:rgb(29, 80, 76);
+    font-size:56pt;
     kerning:180pt;
-    text-indent:100px;
-    text-decoration:underline;
     text-align:center;
+    font-weight:100;
+
 }
-h2 {
+
+h4{ font-size:38pt;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;  
+    text-align:center;
     color:rgb(29, 80, 76);
-    font-family:monospaced, sans-serif;
-    font-size:20pt;
-    text-indent:100px;
+   
+}
+
+
+h2 {
+    color:rgb(206, 37, 37);
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+   font-size:28pt;  
+}
+
+
+li {
+    display:inline;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size:32pt;
+    color:rgb(206, 37, 37);
+    padding-left:100px;
+    font-weight:bold;   
+}
+
+
+li.a {font-size:16px;
+
 }
 
 
 h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
     font-size:18pt;
-    color:rgb(22, 61, 58);
-    text-indent:100px;
-   
+     color:rgb(206, 37, 37);   
 }
-section.featured{
+
+
+section{
+    
+    background-clip: content-box;
+    font-family: 'Lora', serif;
+}
+
+section.featured
+{
    width:90%;
-    border-bottom:solid rgb(29, 80, 76);
+    border-bottom:solid rgb(206, 37, 37);
     }
 section.job1{
     width:90%;
-    border-bottom:solid rgb(29, 80, 76);
+    border-bottom:solid rgb(206, 37, 37);
     margin-bottom:35px;
 }
 section.education{
     width:90%;
-    border-bottom:solid rgb(29, 80, 76);
-    margin-bottom:75px;
-    
-    }
+    border-bottom:solid rgb(206, 37, 37);
+    padding-bottom:25px;
+      }
 
-p   {
-    font-family:garamond;
-    font-size:18px;
-    color:rgb(22, 61, 58);
-    padding-left:100px;
-    width:75%;
-    font-weight:bold;
-
-}
 footer{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:14pt;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-align: center;
+    font-size:16pt;
     color:rgb(59, 53, 77);
-    padding-left:100px;
+    padding:50px;
 }
+
+
